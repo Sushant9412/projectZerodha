@@ -58,7 +58,7 @@ const Menu = () => {
           <li>
             <Link
               style={{ textDecoration: "none" }}
-              to="/position"
+              to="/positions"
               onClick={() => handleMenu(3)}
             >
               <p className={selectedMenu === 3 ? activeMenuClass : menuClass}>
