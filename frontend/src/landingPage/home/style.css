@@ -1,0 +1,14 @@
+.anchorTags {
+  text-decoration: none;
+}
+
+.anchorTags:hover {
+  color: rgb(0, 0, 0);
+ 
+}
+
+.signUpButton:hover {
+  background-color: #555;
+  border: #555;
+  color: white;
+}
