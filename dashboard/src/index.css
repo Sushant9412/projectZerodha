@@ -716,21 +716,25 @@ hr {
 .actions {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 0; 
+  margin-left: 11rem;
+  width: 60%;
   height: 100%;
   align-items: center;
   justify-content: flex-end;
-  display: none;
+
+  display: flex;
+   background-color: rgba(0, 0, 0, 0.6);
 }
 
 .actions span button {
-  width: 40px;
+  width: 50px;
   height: 30px;
   border-radius: 4px;
   text-align: center;
   margin-right: 8px;
   cursor: pointer;
+
 }
 
 .buy {
@@ -739,6 +743,7 @@ hr {
   font-weight: 400;
   font-size: 0.8rem;
   border: 0.7px solid #4184f3;
+
 }
 
 .sell {
@@ -752,11 +757,14 @@ hr {
 .action {
   background-color: #fff;
   border: 0.7px solid #9b9b9b;
+
+  
 }
 
 .icon {
   transform: scale(0.7);
   color: rgb(65, 65, 65);
+ 
 }
 
 .watchlist-number {
